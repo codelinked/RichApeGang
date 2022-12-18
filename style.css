@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 1.5;
+  cursor: url(banana.cur), auto !important;
+}
+
+html {
+  font-size: 70%;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat' sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #e6e47e;
+  padding-left: 30rem;
+}
+
+a, a img {
+  cursor: url(ape.cur), auto !important;
+}
+
+
+/* navigation */
+#navigation {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  background: #523e09;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  flex-flow: column;
+  padding: 8rem 2rem;
+  width: 22rem;
+  text-align: center;
+}
+
+#navigation h1 {
+  text-transform: capitalize;
+  color: #eddd85;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#navigation .navbar a {
+  display: block;
+  font-size: 2rem;
+  color: #eddd85;
+  margin: 2rem;
+}
+
+#navigation .navbar a:hover {
+  letter-spacing: .1rem;
+  color: white;
+}
+
+#navigation .links {
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#navigation .icon {
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+}
+
+#navigation img {
+  height: 40px;
+  width: 40px;
+  filter: grayscale(1);
+  transition: 0.05 ease filter;
+  margin-left: 5px;
+}
+
+#navigation img:hover {
+  filter: grayscale(0);
+}
+/* end of navigation */
